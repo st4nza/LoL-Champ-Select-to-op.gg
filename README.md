@@ -13,4 +13,5 @@ Rebel Preacher joined the lobby
 NSFW Plays joined the lobby  
 l Padfoot l joined the lobby  
   
+open the username.py file in notepad to put in your username  
 Now just hit go, and if you are using chrome it will open in that
