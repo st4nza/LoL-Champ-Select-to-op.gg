@@ -8,7 +8,7 @@
 
 from PyQt5 import QtCore, QtGui, QtWidgets
 import webbrowser
-
+import username
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
@@ -47,13 +47,16 @@ class Ui_MainWindow(object):
         
     def go(self):
         s=self.plainTextEdit.toPlainText()
-
+        u=username.UserName()
         s=s.split("\n")
+        
         chrome_path = r'C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'
         url = 'http://na.op.gg/summoner/userName='
+        
         for x in range(len(s)):
-            link=s[x].split("joined")[0]
-            webbrowser.get(chrome_path).open(url + link)
+            if u.lower() not in s[x].lower() and s[x]:
+                link=s[x].split("joined")[0]
+                webbrowser.get(chrome_path).open(url + link)
             
 if __name__ == "__main__":
     import sys
