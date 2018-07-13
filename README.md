@@ -4,7 +4,8 @@ in cmd type: pip install pyqt5
 this also requires google chrome  
   
 now you should be able to run the script  
-Once gui is open you should be able to copy paste the text of who joined chat ex:  
+Once gui is open you should be able to copy the text of who joined chat  
+and paste it in the text box ex:  
   
 StanzaOnDubz joined the lobby  
 Shinji lkari joined the lobby  
