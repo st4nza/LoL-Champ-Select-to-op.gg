@@ -14,4 +14,7 @@ Rebel Preacher joined the lobby
 NSFW Plays joined the lobby  
 l Padfoot l joined the lobby  
     
-Now just hit go, and if you are using chrome it will open in that
+Now just hit go, and if you are using chrome it will open in that  
+  
+Also uploaded an executable verison, just run the file, and in the .txt file  
+put your username inplace of the one provided
